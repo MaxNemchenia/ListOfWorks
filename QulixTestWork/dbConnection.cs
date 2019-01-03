@@ -14,8 +14,8 @@ namespace QulixTestWork
         public dbConnection()
         {
             adapter = new SqlDataAdapter();
-            //connectionString = @"Data Source=.\TEW_SQLEXPRESS;Initial Catalog=Work;Integrated Security=True";
-            connectionString = @"Data Source=(localdb)\MSSQLLocalDB; AttachDbFilename='|DataDirectory|\Work.mdf'; Integrated Security=True";
+            connectionString = @"Data Source=.\TEW_SQLEXPRESS;Initial Catalog=Work;Integrated Security=True";
+           // connectionString = @"Data Source=(localdb)\MSSQLLocalDB; AttachDbFilename='|DataDirectory|\Work.mdf'; Integrated Security=True";
             connection = new SqlConnection(connectionString);
         }
 
